@@ -4,7 +4,7 @@ This repository contains materials for the **Distributed Systems** course at **T
 
 ## Structure
 - **Papers/**: Contains research papers that should be read for this course.
-- **data-engineering-road-map.pdf**: A roadmap for Data Engineering to help understand related concepts.
+- **data-engineering-road-map.md**: A roadmap for Data Engineering to help understand related concepts.
 
 ## Usage
 1. Clone the repository:
@@ -16,4 +16,4 @@ This repository contains materials for the **Distributed Systems** course at **T
    cd Distributed-Systems-Course-TMU
    ```
 3. Open the **Papers/** directory to read the recommended research papers.
-4. Refer to `data-engineering-road-map.pdf` for insights into data engineering.
+4. Refer to `data-engineering-road-map.md` for insights into data engineering.
