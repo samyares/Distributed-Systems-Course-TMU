@@ -37,14 +37,10 @@ The main goal of this project is to:
 ## Project Structure
 
 ```
-├── report/
-│   └── concurrency_analysis.pdf         # Full report with explanations, charts, and analysis
+├── report.pdf             # Full report with explanations, charts, and analysis
 ├── src/
 │   ├── prime_test.py                    # Code for the prime number benchmark
 │   └── fibonacci_test.py                # Code for the recursive Fibonacci benchmark
-├── plots/
-│   ├── Figure_1.png                     # Chart for prime check benchmarks
-│   └── Figure_2.png                     # Chart for recursive Fibonacci benchmarks
 └── README.md
 ```
 
