@@ -44,8 +44,7 @@ The main goal of this project is to:
 │   └── fibonacci_test.py                # Code for the recursive Fibonacci benchmark
 ├── plots/
 │   ├── Figure_1.png                     # Chart for prime check benchmarks
-│   ├── Figure_2.png                     # Chart for large-scale prime tasks
-│   └── Figure_3.png                     # Chart for recursive Fibonacci benchmarks
+│   └── Figure_2.png                     # Chart for recursive Fibonacci benchmarks
 └── README.md
 ```
 
@@ -56,8 +55,6 @@ The main goal of this project is to:
 ### Requirements
 
 This project is based on Python 3.8+ and uses only standard libraries.
-
-No external dependencies are required.
 
 ### Run Benchmarks
 
@@ -77,15 +74,3 @@ Each script will execute the tasks using the three concurrency models and plot e
 - **Manual Threading** suffers from high overhead as the number of threads increases.
 - **ThreadPoolExecutor** performs well in lightweight tasks due to task queuing and thread reuse.
 - **Multiprocessing** is the only model that bypasses the GIL and achieves real parallelism in CPU-bound tasks.
-
----
-
-## License
-
-This project is open-source and licensed under the MIT License.
-
----
-
-## Author
-
-Developed as part of a systems programming and performance evaluation assignment.
